@@ -37,6 +37,12 @@ yarn tauri dev
 ```
 yarn tauri build
 ```
+
+### Init for Mobile
+```
+TAURI_APPLE_DEVELOPMENT_TEAM='plybi' yarn tauri ios init
+```
+
 ### Dev for Mobile (replace ios with android if needed)
 ```
 yarn tauri ios dev
@@ -45,6 +51,9 @@ yarn tauri ios dev
 ```
 yarn tauri ios build
 ```
+
+### Connect me on: https://www.facebook.com/phuocnc
+
 
 ### Customize the configuration
 See [Configuring quasar.config.js](https://v2.quasar.dev/quasar-cli-vite/quasar-config-js).
