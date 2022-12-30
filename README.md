@@ -1,6 +1,6 @@
-# PowerPLY English (plyenglish)
+# A Template App using Vue Quasar Framework for building WebApp and Rust Tauri for wrapping into Desktop/Mobile App
 
-An app that help us improve English skill
+Sample template
 
 ## Install the dependencies
 ```bash
@@ -27,6 +27,23 @@ npm run lint
 ### Build the app for production
 ```bash
 quasar build
+```
+
+### Dev for Desktop
+```
+yarn tauri dev
+```
+### Build for Desktop
+```
+yarn tauri build
+```
+### Dev for Mobile (replace ios with android if needed)
+```
+yarn tauri ios dev
+```
+### Build for Mobile
+```
+yarn tauri ios build
 ```
 
 ### Customize the configuration
